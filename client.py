@@ -3,7 +3,7 @@ import os, os.path
 
 
 print "I will be ready for communication"
-PATH = "/home/back/unix_example"
+PATH = "/home/sock"
 if os.path.exists(PATH):
     client = socket.socket(socket.AF_UNIX, socket.SOCK_DGRAM)
     client.connect(PATH)
