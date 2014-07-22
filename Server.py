@@ -5,7 +5,7 @@ import socket
 import os, os.path
 import time
 
-PATH = "/home/back/unix_example"
+PATH = "/home/sock"
 if os.path.exists(PATH):
     os.remove(PATH)
 
